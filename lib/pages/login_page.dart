@@ -9,7 +9,23 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       body: Column(
-        children: [],
+        children: [
+          //logo
+
+          //welcome back message
+
+          //password textfield
+
+          //forgot password?
+
+          //sign in button
+
+          //or continue with
+
+          //google / apple sign in button
+
+          //not a memeber? register now
+        ],
       ),
     );
   }
