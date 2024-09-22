@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class MyTextfield extends StatelessWidget {
-  const MyTextfield({super.key});
+  final controller;
+  final String hintText;
+  final bool obscureText;
+  const MyTextfield({super.key, required this.controller, required this.hintText, required this.obscureText});
 
   @override
   Widget build(BuildContext context) {
@@ -11,6 +14,7 @@ class MyTextfield extends StatelessWidget {
       child: TextField(
         decoration: InputDecoration(
           enabledBorder: const OutlineInputBorder(
+            //borderRadius: BorderRadius.all(),
             borderSide: BorderSide(color: Colors.amber),
           ),
           focusedBorder: const OutlineInputBorder(
