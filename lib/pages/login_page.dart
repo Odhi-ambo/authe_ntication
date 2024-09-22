@@ -1,3 +1,4 @@
+import 'package:auth_flutter/components/my_textfield.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -7,7 +8,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      body: SafeArea(
+      body: const SafeArea(
         child: Center(
           child: Column(
             children: [
@@ -37,22 +38,12 @@ class LoginPage extends StatelessWidget {
               ),
 
               //username textfield
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
-                child: TextField(
-                  decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.amber),
-                      ),
-                      focusedBorder: const OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.white),
-                      ),
-                      fillColor: Colors.grey.shade200,
-                      filled: true),
-                ),
-              )
-
+              MyTextfield(),
+              const SizedBox(
+                height: 25,
+              ),
               //password textfield
+              MyTextfield(),
 
               //forgot password?
 
