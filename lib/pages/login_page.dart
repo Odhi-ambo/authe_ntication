@@ -7,7 +7,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      body: const SafeArea(
+      body: SafeArea(
         child: Center(
           child: Column(
             children: [
@@ -45,7 +45,10 @@ class LoginPage extends StatelessWidget {
                         borderSide: BorderSide(color: Colors.amber),
                       ),
                       focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Colors.white))),
+                        borderSide: BorderSide(color: Colors.white),
+                      ),
+                      fillColor: Colors.grey.shade200,
+                      filled: true),
                 ),
               )
 
