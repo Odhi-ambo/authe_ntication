@@ -24,6 +24,7 @@ class LoginPage extends StatelessWidget {
               ),
 
               //welcome back message
+              Text('Welcome Back!')
 
               //password textfield
 
