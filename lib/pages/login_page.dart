@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -8,29 +9,25 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      body: const SafeArea(
-        child: Column(
-          children: [
-            //logo
-            Icon(
-              Icons.lock,
-              size: 100,
-            )
+      body: SafeArea(
+        child: Center(
+          child: Column(
+            children: [Icon(Icons.lock)],
+          ),
 
-            //welcome back message
+          //welcome back message
 
-            //password textfield
+          //password textfield
 
-            //forgot password?
+          //forgot password?
 
-            //sign in button
+          //sign in button
 
-            //or continue with
+          //or continue with
 
-            //google / apple sign in button
+          //google / apple sign in button
 
-            //not a memeber? register now
-          ],
+          //not a memeber? register now
         ),
       ),
     );
