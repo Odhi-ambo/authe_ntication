@@ -12,22 +12,28 @@ class LoginPage extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Column(
-            children: [Icon(Icons.lock)],
+            children: [
+              //logo
+              Icon(
+                Icons.lock,
+                size: 100,
+              ),
+
+              //welcome back message
+
+              //password textfield
+
+              //forgot password?
+
+              //sign in button
+
+              //or continue with
+
+              //google / apple sign in button
+
+              //not a memeber? register now
+            ],
           ),
-
-          //welcome back message
-
-          //password textfield
-
-          //forgot password?
-
-          //sign in button
-
-          //or continue with
-
-          //google / apple sign in button
-
-          //not a memeber? register now
         ),
       ),
     );
