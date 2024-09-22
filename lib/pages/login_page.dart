@@ -7,11 +7,11 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
-      body: SafeArea(
+      body: const SafeArea(
         child: Center(
           child: Column(
             children: [
-              const SizedBox(
+              SizedBox(
                 height: 50,
               ),
               //logo
