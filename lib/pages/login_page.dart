@@ -11,16 +11,16 @@ class LoginPage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               //logo
-              Icon(
+              const Icon(
                 Icons.lock,
                 size: 100,
                 color: Colors.amber,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
 
