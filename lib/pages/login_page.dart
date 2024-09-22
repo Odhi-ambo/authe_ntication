@@ -18,13 +18,20 @@ class LoginPage extends StatelessWidget {
               Icon(
                 Icons.lock,
                 size: 100,
+                color: Colors.amber,
               ),
               SizedBox(
                 height: 50,
               ),
 
               //welcome back message
-              Text('Welcome Back!')
+              Text(
+                'Welcome Back!',
+                style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.amber),
+              ),
 
               //password textfield
 
