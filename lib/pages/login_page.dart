@@ -32,6 +32,9 @@ class LoginPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.amber),
               ),
+              SizedBox(
+                height: 25,
+              ),
 
               //username textfield
               Padding(
