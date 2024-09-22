@@ -25,14 +25,14 @@ class LoginPage extends StatelessWidget {
               ),
 
               //welcome back message
-              Text(
+              const Text(
                 'Welcome Back!',
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
                     color: Colors.amber),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 25,
               ),
 
