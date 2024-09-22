@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -13,10 +12,16 @@ class LoginPage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
+              const SizedBox(
+                height: 50,
+              ),
               //logo
               Icon(
                 Icons.lock,
                 size: 100,
+              ),
+              SizedBox(
+                height: 50,
               ),
 
               //welcome back message
