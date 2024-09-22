@@ -32,6 +32,15 @@ class LoginPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.amber),
               ),
+              //username textfield
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25.0),
+                child: TextField(
+                  decoration: InputDecoration(
+                      enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.white))),
+                ),
+              )
 
               //password textfield
 
