@@ -69,7 +69,8 @@ class LoginPage extends StatelessWidget {
                     Text('Forgor password?'),
                   ],
                 ),
-              )
+              ),
+             // const SizedBox(height: ,)
 
               //sign in button
 
