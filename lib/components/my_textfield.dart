@@ -12,17 +12,16 @@ class MyTextfield extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return //username textfield
-        Padding(
+    return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 25.0),
       child: TextField(
         controller: controller,
         obscureText: obscureText,
         decoration: InputDecoration(
-            enabledBorder: const OutlineInputBorder(
-              //borderRadius: BorderRadius.all(),
-              borderSide: BorderSide(color: Colors.amber),
-            ),
+            enabledBorder: OutlineInputBorder(
+                //borderRadius: BorderRadius.all(),
+                borderSide: BorderSide(color: Colors.amber),
+                borderRadius: BorderRadius.circular(12)),
             focusedBorder: const OutlineInputBorder(
               borderSide: BorderSide(color: Colors.white),
             ),
