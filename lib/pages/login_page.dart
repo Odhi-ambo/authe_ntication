@@ -61,11 +61,14 @@ class LoginPage extends StatelessWidget {
               ),
 
               //forgot password?
-              const Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Text('Forgor password ?'),
-                ],
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Text('Forgor password?'),
+                  ],
+                ),
               )
 
               //sign in button
