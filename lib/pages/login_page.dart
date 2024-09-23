@@ -62,6 +62,7 @@ class LoginPage extends StatelessWidget {
 
               //forgot password?
               const Row(
+                mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Text('Forgor password ?'),
                 ],
