@@ -61,7 +61,7 @@ class LoginPage extends StatelessWidget {
               ),
 
               //forgot password?
-              Row(
+              const Row(
                 children: [
                   Text('Forgor password ?'),
                 ],
