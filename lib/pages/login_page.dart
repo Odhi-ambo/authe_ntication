@@ -76,7 +76,7 @@ class LoginPage extends StatelessWidget {
               ),
 
               //sign in button
-              MyButton(),
+              const MyButton(),
 
               //or continue with
 
