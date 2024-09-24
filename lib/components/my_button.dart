@@ -12,7 +12,11 @@ class MyButton extends StatelessWidget {
         color: Colors.amber,
         borderRadius: BorderRadius.circular(8),
       ),
-      child: const Center(child: Text('Sign in')),
+      child: const Center(
+          child: Text(
+        'Sign in',
+        style: TextStyle(color: Colors.white, fontSize: 16,fontWeight: FontWeight.bold),
+      )),
     );
   }
 }
