@@ -9,6 +9,9 @@ class LoginPage extends StatelessWidget {
   final usernameController = TextEditingController();
   final passwordController = TextEditingController();
 
+  //signuserin method
+  void signUserIn() {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +27,7 @@ class LoginPage extends StatelessWidget {
               const Icon(
                 Icons.lock,
                 size: 100,
-                color: Colors.amber,
+                color: Colors.black,
               ),
               const SizedBox(
                 height: 50,
@@ -36,7 +39,7 @@ class LoginPage extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
-                    color: Colors.amber),
+                    color: Colors.black),
               ),
               const SizedBox(
                 height: 25,
@@ -76,7 +79,9 @@ class LoginPage extends StatelessWidget {
               ),
 
               //sign in button
-              const MyButton(),
+              MyButton(
+                onTap: signUserIn,
+              ),
 
               //or continue with
 
