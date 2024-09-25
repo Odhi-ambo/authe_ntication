@@ -87,23 +87,27 @@ class LoginPage extends StatelessWidget {
               ),
 
               //or continue with
-              Row(
-                children: [
-                  Expanded(
-                    child: Divider(
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Divider(
+                        thickness: 2,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 10.0),
+                      child: Text('Or continue with'),
+                    ),
+                    Expanded(
+                        child: Divider(
                       thickness: 2,
                       color: Colors.grey,
-                    ),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 10.0),
-                    child: Text('Or continue with'),
-                  ),
-                  Expanded(
-                      child: Divider(
-                    thickness: 2,
-                  ))
-                ],
+                    ))
+                  ],
+                ),
               )
 
               //google / apple sign in button
