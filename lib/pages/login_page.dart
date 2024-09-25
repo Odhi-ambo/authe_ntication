@@ -95,6 +95,7 @@ class LoginPage extends StatelessWidget {
                       color: Colors.grey,
                     ),
                   ),
+                  Expanded(child: Divider())
                 ],
               )
 
