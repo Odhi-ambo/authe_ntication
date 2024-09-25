@@ -82,9 +82,15 @@ class LoginPage extends StatelessWidget {
               MyButton(
                 onTap: signUserIn,
               ),
+              const SizedBox(
+                height: 25,
+              ),
 
               //or continue with
-              Divider()
+              Divider(
+                thickness: 2,
+                color: Colors.grey,
+              )
 
               //google / apple sign in button
 
