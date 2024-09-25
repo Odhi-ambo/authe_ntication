@@ -97,6 +97,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10.0),
+                    child: Text('Or continue with'),
                   ),
                   Expanded(
                       child: Divider(
