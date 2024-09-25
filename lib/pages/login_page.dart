@@ -87,9 +87,15 @@ class LoginPage extends StatelessWidget {
               ),
 
               //or continue with
-              Divider(
-                thickness: 2,
-                color: Colors.grey,
+              Row(
+                children: [
+                  Expanded(
+                    child: Divider(
+                      thickness: 2,
+                      color: Colors.grey,
+                    ),
+                  ),
+                ],
               )
 
               //google / apple sign in button
