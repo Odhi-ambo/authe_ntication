@@ -84,6 +84,7 @@ class LoginPage extends StatelessWidget {
               ),
 
               //or continue with
+              Divider()
 
               //google / apple sign in button
 
