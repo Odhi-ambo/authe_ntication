@@ -110,6 +110,9 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(
+                height: 25,
+              ),
 
               //google / apple sign in button
               Row(
