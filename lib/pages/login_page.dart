@@ -121,6 +121,9 @@ class LoginPage extends StatelessWidget {
                   SquareTile(imagePath: 'lib/images/download.png'),
                 ],
               ),
+              const SizedBox(
+                height: 25,
+              ),
 
               //not a memeber? register now
               Row(
