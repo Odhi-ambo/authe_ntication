@@ -118,7 +118,7 @@ class LoginPage extends StatelessWidget {
               const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SquareTile(ImagePath: 'lib/images/download.png'),
+                  SquareTile(imagePath: 'lib/images/download.png'),
                 ],
               )
 
