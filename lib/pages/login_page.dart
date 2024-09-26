@@ -120,9 +120,17 @@ class LoginPage extends StatelessWidget {
                 children: [
                   SquareTile(imagePath: 'lib/images/download.png'),
                 ],
-              )
+              ),
 
               //not a memeber? register now
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('Not a member?'),
+                  const SizedBox(width: 4),
+                  Text('Register now')
+                ],
+              ),
             ],
           ),
         ),
