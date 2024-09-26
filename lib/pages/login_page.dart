@@ -108,9 +108,10 @@ class LoginPage extends StatelessWidget {
                     ))
                   ],
                 ),
-              )
+              ),
 
               //google / apple sign in button
+              Image.asset('lib/images/download.png'),
 
               //not a memeber? register now
             ],
