@@ -126,11 +126,11 @@ class LoginPage extends StatelessWidget {
               ),
 
               //not a memeber? register now
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Not a member?'),
-                  const SizedBox(width: 4),
+                  SizedBox(width: 4),
                   Text('Register now')
                 ],
               ),
