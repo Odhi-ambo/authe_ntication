@@ -1,5 +1,6 @@
 import 'package:auth_flutter/components/my_button.dart';
 import 'package:auth_flutter/components/my_textfield.dart';
+import 'package:auth_flutter/components/square_tile.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -111,7 +112,7 @@ class LoginPage extends StatelessWidget {
               ),
 
               //google / apple sign in button
-              Image.asset('lib/images/download.png'),
+              SquareTile(ImagePath: 'lib/images/download.png')
 
               //not a memeber? register now
             ],
