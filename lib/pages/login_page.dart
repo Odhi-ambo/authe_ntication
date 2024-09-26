@@ -112,7 +112,11 @@ class LoginPage extends StatelessWidget {
               ),
 
               //google / apple sign in button
-              SquareTile(ImagePath: 'lib/images/download.png')
+              Row(
+                children: [
+                  SquareTile(ImagePath: 'lib/images/download.png'),
+                ],
+              )
 
               //not a memeber? register now
             ],
