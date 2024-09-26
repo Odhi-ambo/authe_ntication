@@ -115,7 +115,7 @@ class LoginPage extends StatelessWidget {
               ),
 
               //google / apple sign in button
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SquareTile(ImagePath: 'lib/images/download.png'),
