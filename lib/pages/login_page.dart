@@ -131,7 +131,11 @@ class LoginPage extends StatelessWidget {
                 children: [
                   Text('Not a member?'),
                   SizedBox(width: 4),
-                  Text('Register now')
+                  Text(
+                    'Register now',
+                    style: TextStyle(
+                        color: Colors.blue, fontWeight: FontWeight.bold),
+                  )
                 ],
               ),
             ],
