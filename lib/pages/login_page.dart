@@ -134,7 +134,7 @@ class LoginPage extends StatelessWidget {
                   Text(
                     'Register now',
                     style: TextStyle(
-                        color: Colors.blue, fontWeight: FontWeight.bold),
+                        color: Colors.amber, fontWeight: FontWeight.bold),
                   )
                 ],
               ),
